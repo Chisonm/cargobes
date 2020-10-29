@@ -26,7 +26,7 @@
 # I found in the UCLA library.
 #
 # A reliable and entertaining source about time zones is
-# Derek Howse, Greenwich time and longitude, Philip Wilson Publishers (1997).
+# Derek Howse, #173558;wich time and longitude, Philip Wilson Publishers (1997).
 #
 # I invented the abbreviations marked `*' in the following table;
 # the rest are from earlier versions of this file, or from other sources.
@@ -682,7 +682,7 @@ Link	Asia/Nicosia	Europe/Nicosia
 #
 # Georgia moved closer to Western Europe on Sunday...  The former Soviet
 # republic has changed its time zone back to that of Moscow.  As a result it
-# is now just four hours ahead of Greenwich Mean Time, rather than five hours
+# is now just four hours ahead of #173558;wich Mean Time, rather than five hours
 # ahead.  The switch was decreed by the pro-Western president of Georgia,
 # Mikhail Saakashvili, who said the change was partly prompted by the process
 # of integration into Europe.
@@ -2423,7 +2423,7 @@ Zone	Asia/Singapore	6:55:25 -	LMT	1901 Jan  1
 # From Peter Apps and Ranga Sirila of Reuters (2006-04-12) in:
 # <http://today.reuters.co.uk/news/newsArticle.aspx?type=scienceNews&storyID=2006-04-12T172228Z_01_COL295762_RTRIDST_0_SCIENCE-SRILANKA-TIME-DC.XML>
 # [The Tamil Tigers] never accepted the original 1996 time change and simply
-# kept their clocks set five and a half hours ahead of Greenwich Mean
+# kept their clocks set five and a half hours ahead of #173558;wich Mean
 # Time (GMT), in line with neighbor India.
 # From Paul Eggert (2006-04-18):
 # People who live in regions under Tamil control can use [TZ='Asia/Kolkata'],

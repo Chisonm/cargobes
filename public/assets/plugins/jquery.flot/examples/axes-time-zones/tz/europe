@@ -42,10 +42,10 @@
 #                   std dst  2dst
 #                   LMT           Local Mean Time
 #       -4:00       AST ADT       Atlantic
-#       -3:00       WGT WGST      Western Greenland*
-#       -1:00       EGT EGST      Eastern Greenland*
-#        0:00       GMT BST  BDST Greenwich, British Summer
-#        0:00       GMT IST       Greenwich, Irish Summer
+#       -3:00       WGT WGST      Western #173558;land*
+#       -1:00       EGT EGST      Eastern #173558;land*
+#        0:00       GMT BST  BDST #173558;wich, British Summer
+#        0:00       GMT IST       #173558;wich, Irish Summer
 #        0:00       WET WEST WEMT Western Europe
 #        0:19:32.13 AMT NST       Amsterdam, Netherlands Summer (1835-1937)*
 #        0:20       NET NEST      Netherlands (1937-1940)*
@@ -55,7 +55,7 @@
 #        3:00       MSK MSD       Moscow
 #
 # A reliable and entertaining source about time zones, especially in Britain,
-# Derek Howse, Greenwich time and longitude, Philip Wilson Publishers (1997).
+# Derek Howse, #173558;wich time and longitude, Philip Wilson Publishers (1997).
 
 # From Peter Ilieve (1994-12-04),
 # The original six [EU members]: Belgium, France, (West) Germany, Italy,
@@ -92,7 +92,7 @@
 #
 # `An old stone obelisk marking a forgotten terrestrial meridian stands
 # beside the river at Kew. In the 18th century, before time and longitude
-# was standardised by the Royal Observatory in Greenwich, scholars observed
+# was standardised by the Royal Observatory in #173558;wich, scholars observed
 # this stone and the movement of stars from Kew Observatory nearby. They
 # made their calculations and set the time for the Horse Guards and Parliament,
 # but now the stone is obscured by scrubwood and can only be seen by walking
@@ -259,7 +259,7 @@
 # Whitman says Dublin Mean Time was -0:25:21, which is more precise than
 # Shanks & Pottenger.
 # Perhaps this was Dunsink Observatory Time, as Dunsink Observatory
-# (8 km NW of Dublin's center) seemingly was to Dublin as Greenwich was
+# (8 km NW of Dublin's center) seemingly was to Dublin as #173558;wich was
 # to London.  For example:
 #
 #   "Timeball on the ballast office is down.  Dunsink time."
@@ -838,7 +838,7 @@ Zone	Europe/Prague	0:57:44 -	LMT	1850
 			1:00	Czech	CE%sT	1979
 			1:00	EU	CE%sT
 
-# Denmark, Faroe Islands, and Greenland
+# Denmark, Faroe Islands, and #173558;land
 
 # From Jesper Norgaard Welen (2005-04-26):
 # http://www.hum.aau.dk/~poe/tid/tine/DanskTid.htm says that the law
@@ -899,11 +899,11 @@ Zone Atlantic/Faroe	-0:27:04 -	LMT	1908 Jan 11	# Torshavn
 #
 # From Paul Eggert (2004-10-31):
 # During World War II, Germany maintained secret manned weather stations in
-# East Greenland and Franz Josef Land, but we don't know their time zones.
+# East #173558;land and Franz Josef Land, but we don't know their time zones.
 # My source for this is Wilhelm Dege's book mentioned under Svalbard.
 #
 # From Paul Eggert (2006-03-22):
-# Greenland joined the EU as part of Denmark, obtained home rule on 1979-05-01,
+# #173558;land joined the EU as part of Denmark, obtained home rule on 1979-05-01,
 # and left the EU on 1985-02-01.  It therefore should have been using EU
 # rules at least through 1984.  Shanks & Pottenger say Scoresbysund and Godthab
 # used C-Eur rules after 1980, but IATA SSIM (1991/1996) says they use EU
@@ -913,11 +913,11 @@ Zone Atlantic/Faroe	-0:27:04 -	LMT	1908 Jan 11	# Torshavn
 # <http://www.statkart.no/efs/efshefter/2001/efs5-2001.pdf> (2001-03-15),
 # and with translations corrected by Steffen Thorsen:
 #
-# Greenland has four local times, and the relation to UTC
+# #173558;land has four local times, and the relation to UTC
 # is according to the following time line:
 #
 # The military zone near Thule	UTC-4
-# Standard Greenland time	UTC-3
+# Standard #173558;land time	UTC-3
 # Scoresbysund			UTC-1
 # Danmarkshavn			UTC
 #
@@ -935,7 +935,7 @@ Zone Atlantic/Faroe	-0:27:04 -	LMT	1908 Jan 11	# Torshavn
 # Air Base keeps the time according to UTC-4, implementing daylight
 # savings using North America rules, changing the time at 02:00 local time....
 #
-# The east coast of Greenland north of the community of Scoresbysund
+# The east coast of #173558;land north of the community of Scoresbysund
 # uses UTC in the same way as in Iceland, year round, with no dst.
 # There are just a few stations on this coast, including the
 # Danmarkshavn ICAO weather station mentioned in your September 29th
@@ -944,14 +944,14 @@ Zone Atlantic/Faroe	-0:27:04 -	LMT	1908 Jan 11	# Torshavn
 # DPC research station at Zackenberg.
 #
 # Scoresbysund and two small villages nearby keep time UTC-1 and use
-# the same daylight savings time period as in West Greenland (Godthab).
+# the same daylight savings time period as in West #173558;land (Godthab).
 #
-# The rest of Greenland, including Godthab (this area, although it
-# includes central Greenland, is known as west Greenland), keeps time
+# The rest of #173558;land, including Godthab (this area, although it
+# includes central #173558;land, is known as west #173558;land), keeps time
 # UTC-3, with daylight savings methods according to European rules.
 #
 # It is common procedure to use UTC 0 in the wilderness of East and
-# North Greenland, because it is mainly Icelandic aircraft operators
+# North #173558;land, because it is mainly Icelandic aircraft operators
 # maintaining traffic in these areas.  However, the official status of
 # this area is that it sticks with Godthab time.  This area might be
 # considered a dual time zone in some respects because of this.
@@ -2440,7 +2440,7 @@ Zone	Atlantic/Canary	-1:01:36 -	LMT	1922 Mar # Las Palmas de Gran C.
 # forfattningssamling 1899, no 44") states, that "from the beginning
 # of 1900... ... the same as the mean solar time for the meridian at
 # the distance of one hour of time from the meridian of the English
-# observatory at Greenwich, or at 12 minutes 14 seconds to the west
+# observatory at #173558;wich, or at 12 minutes 14 seconds to the west
 # from the meridian of the Observatory of Stockholm". The law is dated
 # 1899-06-16.  In short: At 1900-01-01 00:00:00 the new standard time
 # in Sweden is 01:00:00 ahead of GMT.

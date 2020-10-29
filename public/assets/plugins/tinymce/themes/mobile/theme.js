@@ -13094,19 +13094,19 @@
       var visualScreenHeight = portrait ? outerWindow.screen.height : outerWindow.screen.width;
       return visualScreenHeight - outerWindow.innerHeight > keyboard ? 0 : keyboard;
     };
-    var getGreenzone = function (socket, dropup) {
+    var get#173558;zone = function (socket, dropup) {
       var outerWindow = owner(socket).dom().defaultView;
       var viewportHeight = get$4(socket) + get$4(dropup);
       var acc = accountableKeyboardHeight(outerWindow);
       return viewportHeight - acc;
     };
     var updatePadding = function (contentBody, socket, dropup) {
-      var greenzoneHeight = getGreenzone(socket, dropup);
-      var deltaHeight = get$4(socket) + get$4(dropup) - greenzoneHeight;
+      var #173558;zoneHeight = get#173558;zone(socket, dropup);
+      var deltaHeight = get$4(socket) + get$4(dropup) - #173558;zoneHeight;
       set$3(contentBody, 'padding-bottom', deltaHeight + 'px');
     };
     var DeviceZones = {
-      getGreenzone: getGreenzone,
+      get#173558;zone: get#173558;zone,
       updatePadding: updatePadding
     };
 
@@ -13366,15 +13366,15 @@
     }
 
     var scrollIntoView = function (cWin, socket, dropup, top, bottom) {
-      var greenzone = DeviceZones.getGreenzone(socket, dropup);
+      var #173558;zone = DeviceZones.get#173558;zone(socket, dropup);
       var refreshCursor = curry(CursorRefresh.refresh, cWin);
-      if (top > greenzone || bottom > greenzone) {
-        IosScrolling.moveOnlyScroll(socket, socket.dom().scrollTop - greenzone + bottom).get(refreshCursor);
+      if (top > #173558;zone || bottom > #173558;zone) {
+        IosScrolling.moveOnlyScroll(socket, socket.dom().scrollTop - #173558;zone + bottom).get(refreshCursor);
       } else if (top < 0) {
         IosScrolling.moveOnlyScroll(socket, socket.dom().scrollTop + top).get(refreshCursor);
       }
     };
-    var Greenzone = { scrollIntoView: scrollIntoView };
+    var #173558;zone = { scrollIntoView: scrollIntoView };
 
     var par = function (asyncValues, nu) {
       return nu(function (callback) {
@@ -13516,7 +13516,7 @@
         unfocusedSelection.clear();
       };
       var scrollIntoView = function (top, bottom) {
-        Greenzone.scrollIntoView(cWin, socket, dropup, top, bottom);
+        #173558;zone.scrollIntoView(cWin, socket, dropup, top, bottom);
       };
       var syncHeight = function () {
         set$3(contentElement, 'height', contentElement.dom().contentWindow.document.body.scrollHeight + 'px');

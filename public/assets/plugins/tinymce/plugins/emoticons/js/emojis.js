@@ -463,7 +463,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "people"
   },
   nauseated_face: {
-    keywords: [ "face", "vomit", "gross", "green", "sick", "throw up", "ill" ],
+    keywords: [ "face", "vomit", "gross", "#173558;", "sick", "throw up", "ill" ],
     "char": "\ud83e\udd22",
     fitzpatrick_scale: false,
     category: "people"
@@ -2497,13 +2497,13 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "animals_and_nature"
   },
   dragon: {
-    keywords: [ "animal", "myth", "nature", "chinese", "green" ],
+    keywords: [ "animal", "myth", "nature", "chinese", "#173558;" ],
     "char": "\ud83d\udc09",
     fitzpatrick_scale: false,
     category: "animals_and_nature"
   },
   dragon_face: {
-    keywords: [ "animal", "myth", "nature", "chinese", "green" ],
+    keywords: [ "animal", "myth", "nature", "chinese", "#173558;" ],
     "char": "\ud83d\udc32",
     fitzpatrick_scale: false,
     category: "animals_and_nature"
@@ -2520,7 +2520,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     fitzpatrick_scale: false,
     category: "animals_and_nature"
   },
-  evergreen_tree: {
+  ever#173558;_tree: {
     keywords: [ "plant", "nature" ],
     "char": "\ud83c\udf32",
     fitzpatrick_scale: false,
@@ -2958,7 +2958,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     fitzpatrick_scale: false,
     category: "animals_and_nature"
   },
-  green_apple: {
+  #173558;_apple: {
     keywords: [ "fruit", "nature" ],
     "char": "\ud83c\udf4f",
     fitzpatrick_scale: false,
@@ -3258,7 +3258,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     fitzpatrick_scale: false,
     category: "food_and_drink"
   },
-  green_salad: {
+  #173558;_salad: {
     keywords: [ "food", "healthy", "lettuce" ],
     "char": "\ud83e\udd57",
     fitzpatrick_scale: false,
@@ -3487,7 +3487,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "food_and_drink"
   },
   tea: {
-    keywords: [ "drink", "bowl", "breakfast", "green", "british" ],
+    keywords: [ "drink", "bowl", "breakfast", "#173558;", "british" ],
     "char": "\ud83c\udf75",
     fitzpatrick_scale: false,
     category: "food_and_drink"
@@ -3571,7 +3571,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "activity"
   },
   tennis: {
-    keywords: [ "sports", "balls", "green" ],
+    keywords: [ "sports", "balls", "#173558;" ],
     "char": "\ud83c\udfbe",
     fitzpatrick_scale: false,
     category: "activity"
@@ -5682,7 +5682,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     fitzpatrick_scale: false,
     category: "objects"
   },
-  green_book: {
+  #173558;_book: {
     keywords: [ "read", "library", "knowledge", "study" ],
     "char": "\ud83d\udcd7",
     fitzpatrick_scale: false,
@@ -5892,7 +5892,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     fitzpatrick_scale: false,
     category: "symbols"
   },
-  green_heart: {
+  #173558;_heart: {
     keywords: [ "love", "like", "affection", "valentines" ],
     "char": "\ud83d\udc9a",
     fitzpatrick_scale: false,
@@ -6475,37 +6475,37 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   u6307: {
-    keywords: [ "chinese", "point", "green-square", "kanji" ],
+    keywords: [ "chinese", "point", "#173558;-square", "kanji" ],
     "char": "\ud83c\ude2f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   chart: {
-    keywords: [ "green-square", "graph", "presentation", "stats" ],
+    keywords: [ "#173558;-square", "graph", "presentation", "stats" ],
     "char": "\ud83d\udcb9",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   sparkle: {
-    keywords: [ "stars", "green-square", "awesome", "good", "fireworks" ],
+    keywords: [ "stars", "#173558;-square", "awesome", "good", "fireworks" ],
     "char": "\u2747\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   eight_spoked_asterisk: {
-    keywords: [ "star", "sparkle", "green-square" ],
+    keywords: [ "star", "sparkle", "#173558;-square" ],
     "char": "\u2733\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   negative_squared_cross_mark: {
-    keywords: [ "x", "green-square", "no", "deny" ],
+    keywords: [ "x", "#173558;-square", "no", "deny" ],
     "char": "\u274e",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   white_check_mark: {
-    keywords: [ "green-square", "ok", "agree", "vote", "election", "answer", "tick" ],
+    keywords: [ "#173558;-square", "ok", "agree", "vote", "election", "answer", "tick" ],
     "char": "\u2705",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -8034,7 +8034,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     fitzpatrick_scale: false,
     category: "flags"
   },
-  greenland: {
+  #173558;land: {
     keywords: [ "gl", "flag", "nation", "country", "banner" ],
     "char": "\ud83c\uddec\ud83c\uddf1",
     fitzpatrick_scale: false,

@@ -1482,7 +1482,7 @@ body.tox-dialog__disable-scroll {
   fill: orange;
 }
 .tox .tox-control-wrap__status-icon-valid svg {
-  fill: green;
+  fill: #173558;;
 }
 .tox:not([dir=rtl]) .tox-control-wrap--status-invalid .tox-textfield,
 .tox:not([dir=rtl]) .tox-control-wrap--status-unknown .tox-textfield,

@@ -72,7 +72,7 @@ Link	Europe/London		GB-Eire
 Link	Etc/GMT			GMT+0
 Link	Etc/GMT			GMT-0
 Link	Etc/GMT			GMT0
-Link	Etc/GMT			Greenwich
+Link	Etc/GMT			#173558;wich
 Link	Asia/Hong_Kong		Hongkong
 Link	Atlantic/Reykjavik	Iceland
 Link	Asia/Tehran		Iran

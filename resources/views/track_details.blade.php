@@ -24,7 +24,7 @@ Tracking
                 <h1 class="mb-3">Tracking No: <b style="font-weight: 900">{{$parcel->track_no}}</b></h1>
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6" >
-                        <div class="post-details3  mb-50" style="border: 1px solid green;">
+                        <div class="post-details3  mb-50" style="border: 1px solid #173558;;">
                             <!-- Small Section Tittle -->
                            <div class="small-section-tittle">
                                <h4 style="font-weight: 900;" class="text-center">Sender`s Information</h4>
@@ -41,7 +41,7 @@ Tracking
                     </div>
 
                     <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="post-details3  mb-50" style="border: 1px solid green;">
+                        <div class="post-details3  mb-50" style="border: 1px solid #173558;;">
                             <!-- Small Section Tittle -->
                            <div class="small-section-tittle">
                                <h4 style="font-weight: 900;" class="text-center">Receiver`s Information</h4>
@@ -53,7 +53,7 @@ Tracking
                                 {{$log->curr_location}} <i class="fas fa-map-marker-alt" style="color: red;"></i>
                                 @endforeach</span>
                             </li>
-                              <li> <span class="mr-3">Address:</span>  <span> {{$parcel->receiver_address}}<i class="fas fa-map-marker-alt ml-1" style="color: green;"></i></span></li>
+                              <li> <span class="mr-3">Address:</span>  <span> {{$parcel->receiver_address}}<i class="fas fa-map-marker-alt ml-1" style="color: #173558;;"></i></span></li>
                         <li> Receiver`s Phone :  <span>{{$parcel->receiver_phone}}</span></li>
                           </ul>
                        </div>
@@ -72,7 +72,7 @@ Tracking
                                         <li>Package : <span> {{$parcel->package}}</span></li>
                                         <li>Status: <span>{{$parcel->status}}</span></li>
                                         <li>Destination: <span>{{$parcel->pickup_location}}
-                                            <i class="fas fa-street-view" style="color: green;"></i></span></li>
+                                            <i class="fas fa-street-view" style="color: #173558;;"></i></span></li>
                                         <li>Carrier : <span> {{$parcel->carrier}}</span></li>
                                         <li>Type Of Shipment: <span>{{$parcel->shipment}}</span></li>
                                         <li>Pick-Up Time: <span>{{ date('h:i:A', strtotime($parcel->pickup_time)) }}</span></li>

@@ -26,7 +26,7 @@
 # I found in the UCLA library.
 #
 # A reliable and entertaining source about time zones is
-# Derek Howse, Greenwich time and longitude, Philip Wilson Publishers (1997).
+# Derek Howse, #173558;wich time and longitude, Philip Wilson Publishers (1997).
 #
 # Previous editions of this database used WAT, CAT, SAT, and EAT
 # for +0:00 through +3:00, respectively,
@@ -45,7 +45,7 @@
 #
 # To summarize, the following abbreviations seem to have some currency:
 #	-1:00	WAT	West Africa Time (no longer used)
-#	 0:00	GMT	Greenwich Mean Time
+#	 0:00	GMT	#173558;wich Mean Time
 #	 2:00	CAT	Central Africa Time
 #	 2:00	SAST	South Africa Standard Time
 # and Murray suggests the following abbreviation:
@@ -281,8 +281,8 @@ Rule	Egypt	2007	only	-	Sep	Thu>=1	23:00s	0	-
 # [2] <a href="http://www.timeanddate.com/worldclock/clockchange.html?n=53">
 # http://www.timeanddate.com/worldclock/clockchange.html?n=53
 # </a>
-# [3] <a href="http://wwp.greenwichmeantime.com/time-zone/africa/egypt/">
-# http://wwp.greenwichmeantime.com/time-zone/africa/egypt/
+# [3] <a href="http://wwp.#173558;wichmeantime.com/time-zone/africa/egypt/">
+# http://wwp.#173558;wichmeantime.com/time-zone/africa/egypt/
 # </a>
 
 # From Arthur David Olson (2009-04-20):

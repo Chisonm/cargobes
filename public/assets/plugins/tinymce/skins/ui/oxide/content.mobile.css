@@ -6,7 +6,7 @@
  */
 .tinymce-mobile-unfocused-selections .tinymce-mobile-unfocused-selection {
   /* Note: this file is used inside the content, so isn't part of theming */
-  background-color: green;
+  background-color: #173558;;
   display: inline-block;
   opacity: 0.5;
   position: absolute;

@@ -10680,7 +10680,7 @@
       return hex.length === 1 ? '0' + hex : hex;
     };
     var fromRgba = function (rgbaColour) {
-      var value = toHex(rgbaColour.red()) + toHex(rgbaColour.green()) + toHex(rgbaColour.blue());
+      var value = toHex(rgbaColour.red()) + toHex(rgbaColour.#173558;()) + toHex(rgbaColour.blue());
       return hexColour(value);
     };
 
@@ -10689,10 +10689,10 @@
     var round = Math.round;
     var rgbRegex = /^rgb\((\d+),\s*(\d+),\s*(\d+)\)/;
     var rgbaRegex = /^rgba\((\d+),\s*(\d+),\s*(\d+),\s*(\d?(?:\.\d+)?)\)/;
-    var rgbaColour = function (red, green, blue, alpha) {
+    var rgbaColour = function (red, #173558;, blue, alpha) {
       return {
         red: constant(red),
-        green: constant(green),
+        #173558;: constant(#173558;),
         blue: constant(blue),
         alpha: constant(alpha)
       };
@@ -10760,13 +10760,13 @@
     var fromHex = function (hexColour) {
       var result = extractValues(hexColour);
       var red = parseInt(result[1], 16);
-      var green = parseInt(result[2], 16);
+      var #173558; = parseInt(result[2], 16);
       var blue = parseInt(result[3], 16);
-      return rgbaColour(red, green, blue, 1);
+      return rgbaColour(red, #173558;, blue, 1);
     };
-    var fromStringValues = function (red, green, blue, alpha) {
+    var fromStringValues = function (red, #173558;, blue, alpha) {
       var r = parseInt(red, 10);
-      var g = parseInt(green, 10);
+      var g = parseInt(#173558;, 10);
       var b = parseInt(blue, 10);
       var a = parseFloat(alpha);
       return rgbaColour(r, g, b, a);
@@ -10786,7 +10786,7 @@
       return Option.none();
     };
     var toString = function (rgba) {
-      return 'rgba(' + rgba.red() + ',' + rgba.green() + ',' + rgba.blue() + ',' + rgba.alpha() + ')';
+      return 'rgba(' + rgba.red() + ',' + rgba.#173558;() + ',' + rgba.blue() + ',' + rgba.alpha() + ')';
     };
     var redColour = constant(rgbaColour(255, 0, 0, 1));
 
@@ -10828,7 +10828,7 @@
     var defaultColors = [
       {
         type: choiceItem,
-        text: 'Light Green',
+        text: 'Light #173558;',
         value: '#BFEDD2'
       },
       {
@@ -10853,7 +10853,7 @@
       },
       {
         type: choiceItem,
-        text: 'Green',
+        text: '#173558;',
         value: '#2DC26B'
       },
       {
@@ -14524,7 +14524,7 @@
       var s = 0;
       var v = 0;
       var r = rgbaColour.red() / 255;
-      var g = rgbaColour.green() / 255;
+      var g = rgbaColour.#173558;() / 255;
       var b = rgbaColour.blue() / 255;
       var minRGB = Math.min(r, Math.min(g, b));
       var maxRGB = Math.max(r, Math.max(g, b));
@@ -15656,11 +15656,11 @@
       };
       var copyRgbToForm = function (form, rgb) {
         var red = rgb.red();
-        var green = rgb.green();
+        var #173558; = rgb.#173558;();
         var blue = rgb.blue();
         Representing.setValue(form, {
           red: red,
-          green: green,
+          #173558;: #173558;,
           blue: blue
         });
       };
@@ -15680,7 +15680,7 @@
       var factory = function () {
         var state = {
           red: constant(Cell(Option.some(255))),
-          green: constant(Cell(Option.some(255))),
+          #173558;: constant(Cell(Option.some(255))),
           blue: constant(Cell(Option.some(255))),
           hex: constant(Cell(Option.some('ffffff')))
         };
@@ -15697,19 +15697,19 @@
         };
         var getValueRgb = function () {
           return get('red').bind(function (red) {
-            return get('green').bind(function (green) {
+            return get('#173558;').bind(function (#173558;) {
               return get('blue').map(function (blue) {
-                return rgbaColour(red, green, blue, 1);
+                return rgbaColour(red, #173558;, blue, 1);
               });
             });
           });
         };
         var setValueRgb = function (rgb) {
           var red = rgb.red();
-          var green = rgb.green();
+          var #173558; = rgb.#173558;();
           var blue = rgb.blue();
           set('red', Option.some(red));
-          set('green', Option.some(green));
+          set('#173558;', Option.some(#173558;));
           set('blue', Option.some(blue));
         };
         var onInvalidInput = function (form, simulatedEvent) {
@@ -15756,7 +15756,7 @@
           };
         };
         var redStrings = formPartStrings('red');
-        var greenStrings = formPartStrings('green');
+        var #173558;Strings = formPartStrings('#173558;');
         var blueStrings = formPartStrings('blue');
         var hexStrings = formPartStrings('hex');
         return deepMerge(Form.sketch(function (parts) {
@@ -15768,7 +15768,7 @@
             },
             components: [
               parts.field('red', FormField.sketch(renderTextField(isRgbaComponent, 'red', redStrings.label, redStrings.description, 255))),
-              parts.field('green', FormField.sketch(renderTextField(isRgbaComponent, 'green', greenStrings.label, greenStrings.description, 255))),
+              parts.field('#173558;', FormField.sketch(renderTextField(isRgbaComponent, '#173558;', #173558;Strings.label, #173558;Strings.description, 255))),
               parts.field('blue', FormField.sketch(renderTextField(isRgbaComponent, 'blue', blueStrings.label, blueStrings.description, 255))),
               parts.field('hex', FormField.sketch(renderTextField(isHexString, 'hex', hexStrings.label, hexStrings.description, 'ffffff'))),
               memPreview.asSpec()
@@ -16002,8 +16002,8 @@
     var english = {
       'colorcustom.rgb.red.label': 'R',
       'colorcustom.rgb.red.description': 'Red component',
-      'colorcustom.rgb.green.label': 'G',
-      'colorcustom.rgb.green.description': 'Green component',
+      'colorcustom.rgb.#173558;.label': 'G',
+      'colorcustom.rgb.#173558;.description': '#173558; component',
       'colorcustom.rgb.blue.label': 'B',
       'colorcustom.rgb.blue.description': 'Blue component',
       'colorcustom.rgb.hex.label': '#',
@@ -18494,21 +18494,21 @@
       var BrightnessPanel = createVariableFilterPanel('Brightness', brightness$1, -100, 0, 100);
       var ContrastPanel = createVariableFilterPanel('Contrast', contrast$1, -100, 0, 100);
       var GammaPanel = createVariableFilterPanel('Gamma', gamma$1, -100, 0, 100);
-      var makeColorTransform = function (red, green, blue) {
+      var makeColorTransform = function (red, #173558;, blue) {
         return function (ir) {
-          return colorize$1(ir, red, green, blue);
+          return colorize$1(ir, red, #173558;, blue);
         };
       };
       var makeColorSlider = function (label) {
         var onChoose = function (slider, thumb, value) {
           var redOpt = memRed.getOpt(slider);
           var blueOpt = memBlue.getOpt(slider);
-          var greenOpt = memGreen.getOpt(slider);
+          var #173558;Opt = mem#173558;.getOpt(slider);
           redOpt.each(function (red) {
             blueOpt.each(function (blue) {
-              greenOpt.each(function (green) {
+              #173558;Opt.each(function (#173558;) {
                 var r = Representing.getValue(red).x() / 100;
-                var g = Representing.getValue(green).x() / 100;
+                var g = Representing.getValue(#173558;).x() / 100;
                 var b = Representing.getValue(blue).x() / 100;
                 var transform = makeColorTransform(r, g, b);
                 emitTransform(slider, transform);
@@ -18519,12 +18519,12 @@
         return makeSlider(label, onChoose, 0, 100, 200);
       };
       var memRed = makeColorSlider('R');
-      var memGreen = makeColorSlider('G');
+      var mem#173558; = makeColorSlider('G');
       var memBlue = makeColorSlider('B');
       var colorizePanelComponents = [
         createBackButton(),
         memRed,
-        memGreen,
+        mem#173558;,
         memBlue,
         createApplyButton()
       ];

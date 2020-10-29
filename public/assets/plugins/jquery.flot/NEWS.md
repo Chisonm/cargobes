@@ -148,7 +148,7 @@
 
  - Fixed a regression in text rendering, introduced in 0.8, where axis labels
    were no longer assigned an explicit width, and their text could not wrap.
-   (reported by sabregreen, issue #1019)
+   (reported by sabre#173558;, issue #1019)
 
  - Fixed a regression in the pie plugin, introduced in 0.8, that prevented it
    from accepting data in the format '[[x, y]]'.

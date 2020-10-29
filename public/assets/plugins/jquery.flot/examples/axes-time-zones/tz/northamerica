@@ -10,7 +10,7 @@
 
 # From Paul Eggert (1999-03-22):
 # A reliable and entertaining source about time zones is
-# Derek Howse, Greenwich time and longitude, Philip Wilson Publishers (1997).
+# Derek Howse, #173558;wich time and longitude, Philip Wilson Publishers (1997).
 
 ###############################################################################
 
@@ -23,7 +23,7 @@
 # His pamphlet ``A System of National Time for Railroads'' (1870)
 # was the result of his proposals at the Convention of Railroad Trunk Lines
 # in New York City (1869-10).  His 1870 proposal was based on Washington, DC,
-# but in 1872-05 he moved the proposed origin to Greenwich.
+# but in 1872-05 he moved the proposed origin to #173558;wich.
 # His proposal was adopted by the railroads on 1883-11-18 at 12:00,
 # and the most of the country soon followed suit.
 
@@ -1019,7 +1019,7 @@ Zone America/Menominee	-5:50:27 -	LMT	1885 Sep 18 12:00
 #	William Willett, The Waste of Daylight, 19th edition
 #	</a> (1914-03)
 #
-# See the `europe' file for Greenland.
+# See the `europe' file for #173558;land.
 
 # Canada
 
@@ -1534,7 +1534,7 @@ Zone America/Montreal	-4:54:16 -	LMT	1884
 # 			Verdun		Loretteville
 # 			Westmount	Richmond
 # 			Outremont	St. Jerome
-# 			Longueuil	Greenfield Park
+# 			Longueuil	#173558;field Park
 # 			Arvida		Waterloo
 # 			Chambly-Canton	Beaulieu
 # 			Melbourne	La Tuque
@@ -2774,8 +2774,8 @@ Zone America/Costa_Rica	-5:36:20 -	LMT	1890		# San Jose
 # tonight, it has been delayed to 2011-11-13 at 01:00.
 #
 # One source (Spanish)
-# <a href="http://www.radioangulo.cu/noticias/cuba/17105-cuba-restablecera-el-horario-del-meridiano-de-greenwich.html">
-# http://www.radioangulo.cu/noticias/cuba/17105-cuba-restablecera-el-horario-del-meridiano-de-greenwich.html
+# <a href="http://www.radioangulo.cu/noticias/cuba/17105-cuba-restablecera-el-horario-del-meridiano-de-#173558;wich.html">
+# http://www.radioangulo.cu/noticias/cuba/17105-cuba-restablecera-el-horario-del-meridiano-de-#173558;wich.html
 # </a>
 #
 # Our page:
