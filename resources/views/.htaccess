@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^facebook.cargobes.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.subdomain.primarydomain.com$ [OR]
+RewriteCond %{HTTP_HOST} ^addondomain.com$
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ http://www.addondomain.com/ [R=301,L]
